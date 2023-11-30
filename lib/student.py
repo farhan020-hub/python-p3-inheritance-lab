@@ -4,5 +4,7 @@ from user import User
 
 class Student(User):
     
-    def learn(self):
-        pass
+
+    def learn(self, knowledge_string):
+        self.knowledge = []
+        self.knowledge.append(knowledge_string)
